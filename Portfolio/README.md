@@ -1,6 +1,6 @@
 # Portfolio
 This is my demo portfolio for Free Code Camp project.
-https://aakriti94.github.io/Portfolio/
+https://aakriti94.github.io/freeCodeCamp/Portfolio/index.html
 
 **User Stories:**
 1. I can access all of the portfolio webpage's content just by scrolling.
