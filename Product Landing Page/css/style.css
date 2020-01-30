@@ -1,0 +1,30 @@
+header {
+}
+
+.banner-page {
+  height: 500px;
+  background-color: #F0AC80;
+}
+
+.about-page {
+  background-color: #FCE7F1;
+  height: 500px;
+}
+
+.services-page {
+  background-color: #D9E8EF;
+}
+
+.service {
+  height: 300px;
+  background-color: #D9E8EF;
+}
+
+.reviews-page {
+  background-color: #F0AC80;
+}
+
+.review {
+  height: 300px;
+  background-color: #F0AC80;
+}
