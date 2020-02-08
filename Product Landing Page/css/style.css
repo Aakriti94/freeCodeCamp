@@ -1,7 +1,33 @@
-header {
+body {
+  font-family: 'Work Sans', sans-serif;
 }
 
-.banner-page {
+.text-center {
+    text-align: center !important;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #404044;
+}
+
+.navbar-light .navbar-brand {
+    color: #404044;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-top: 0.9rem !important;
+  padding-bottom: 0.9rem !important;
+  color: #404044 !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 400;
+  opacity: 1 !important;
+  font-size: 16px;
+}
+
+.banner_page {
   height: 500px;
   background-color: #F0AC80;
 }
@@ -11,13 +37,8 @@ header {
   height: 500px;
 }
 
-.services-page {
-  background-color: #D9E8EF;
-}
-
 .service {
   height: 300px;
-  background-color: #D9E8EF;
 }
 
 .reviews-page {
@@ -27,4 +48,188 @@ header {
 .review {
   height: 300px;
   background-color: #F0AC80;
+}
+
+.getInTouch {
+  color: #fff !important;
+  background: #ee76ad;
+  border: none !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: .5rem !important;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 6px !important;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+#header {
+  padding-left: 17%;
+  padding-right: 17%;
+  background: white;
+    width: 100%;
+    /* box-shadow: 0 0 8px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.24); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.getInTouch_bannerButton{
+  color: #fff;
+  background: none;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 6px !important;
+  border-radius: 30px;
+  border: 2px solid #fce7f1;
+  border-color: rgba(255, 255, 255, 0.8);
+  border-width: 2px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.getInTouch_bannerButton:hover, .getInTouch_bannerButton:active {
+  border-color: #fff;
+  color: #ee76ad;
+  background: #fff !important;
+  border-radius: 30px;
+}
+
+.banner_text {
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 1.5rem !important;
+  text-align: center !important;
+  opacity: 1;
+}
+
+#banner {
+  padding-bottom: 15rem;
+  padding-top: 15rem;
+  background: linear-gradient(45deg, #ee76ad 0%, #efac78 100%);
+}
+
+#about {
+  background: #f8faff !important;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+}
+
+.about_text {
+  font-size: 2.5rem;
+  color: #000;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 1.5rem !important;
+  text-align: center !important;
+  padding-right: 16%;
+  padding-left: 16%;
+}
+
+.web_designer {
+  font-weight: 700;
+  color: #efac78;
+  background: #fdf2ea;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.getInTouch_aboutButton {
+  background: #fce7f1;
+  border: 2px solid #fce7f1;
+  color: #ee76ad;
+}
+
+.getInTouch_aboutButton:hover, .getInTouch_aboutButton:active {
+  border: 2px solid #ee76ad;
+  background: transparent;
+  color: #ee76ad;
+}
+
+#video {
+  margin-top: 4%;
+}
+
+.subheading {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.services-page h2 {
+  font-size: 38px;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #404044;
+  margin-bottom: 1.5rem !important;
+  margin: 0 0 24px;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+#services_container {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.services-page p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: #8b8b92;
+}
+
+.icons {
+  height: 30%;
+  width: 30%;
+  margin-bottom: 15%;
+  margin-top: 5%;
+}
+
+.heading {
+  font-size: 20px;
+  line-height: 1.5;
+    color: #404044;
+    font-weight: 400;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.8;
+    font-weight: 300;
+    color: #8b8b92;
+}
+
+
+.footer {
+  font-size: 16px;
+  background: #ee76ad;
+  color: #fff;
+  text-align: center;
+  padding: 1% 0;
+  margin-top: 1rem;
+}
+
+
+#email {
+    margin: 0 37% 2% 37%;
+    width: 25%;
+    padding-left: 1%;
 }

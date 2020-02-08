@@ -6,43 +6,41 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Index</title>
+        <!--- Google Fonts --->
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
         <!-- Latest compiled and minified CSS(Bootstrap) -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!-- jquery-ui CSS -->
-        <link rel="stylesheet" href="css/jquery-ui.css">
         <!-- your CSS after the bootsrap css -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- jquery-ui CSS -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
     </head>
 
     <!--- https://colorlib.com/wp/template/snipp/  --->
     <body>
       <!--- The container for header --->
-      <div class="container">
+      <div class="container-fluid">
         <!--- Container for header --->
         <header id="header">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand logo" href="index.html">SNIPP.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Reviews</a>
+                  <a class="nav-link" href="#services_container">Services</a>
                 </li>
                 <li class="nav-item">
                   <form class="form-inline">
-
-                    <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+                    <button class="btn btn-sm getInTouch" type="button">Get in touch</button>
                   </form>
                 </li>
               </ul>
@@ -53,113 +51,117 @@
       </div>
       <!--- The container for header --->
 
-      <!--- The big container, cointaing everything --->
+      <!--- Banner Page --->
       <div class="container-fluid">
-        <!--- Banner Page --->
         <div class="row">
-          <div class="col-12">
-            <div class="banner-page">
-              <p>We love to create Beautiful websites</p>
-              <form class="form-inline">
-                <button class="btn btn-sm btn-outline-secondary" type="button">Get in touch</button>
-              </form>
-            </div>
+          <div class="col-12" id="banner">
+            <p class="banner_text">We love to create <strong class="boldText">Beautiful</strong> <br> websites</p>
+            <form class="form-inline">
+              <input type="email" id="email" placeholder="Enter your email address"> <br />
+              <button class="btn getInTouch_bannerButton " type="button">Get in touch</button>
+            </form>
           </div>
         </div>
-        <!--- Banner Page --->
-
-        <!--- About Page --->
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="about-page">
-              <p>UI/UX, visual, Web designer with more than 12 years of experience in designing websites and mobile apps.</p>
-              <form class="form-inline">
-                <button class="btn btn-sm btn-outline-secondary" type="button">Get in touch</button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!--- About Page --->
-
-        <!--- Youtube --->
-        <div class="row">
-          <div class="col-sm-12">
-            Youtube
-          </div>
-        </div>
-        <!--- Youtube --->
-
-        <!--- Services Page --->
-        <div class="row">
-          <div class="col-sm-12">
-            <section class="services-page">
-              <p>OUR SERVICES</p>
-              <h2>Web & Mobile app design, bring your ideas to life</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-            </section>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            <div class="service">
-              One of three columns
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="service">
-              One of three columns
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="service">
-              One of three columns
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="service">
-              One of three columns
-            </div>
-          </div>
-        </div>
-        <!--- Services Page --->
-
-        <!--- Reviews Page --->
-        <div class="row">
-          <div class="col-sm-12">
-            <section class="reviews-page">
-              <p>CUSTOMER SAYS</p>
-              <h2>Our satisfied customer says</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-            </section>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            <div class="review">
-              One of three columns
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="review">
-              One of three columns
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="review">
-              One of three columns
-            </div>
-          </div>
-        </div>
-        <!--- Reviews Page --->
-
-        <!--- Footer Page --->
-        <div class="row">
-          <div class="col-sm" style="height: 200px; background: #FCE7F1;">Footer</div>
-        </div>
-        <!--- Footer Page --->
-
       </div>
-      <!--- The big container, cointaing everything --->
+      <!--- Banner Page --->
+
+
+      <!--- About Page --->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12" id="about">
+            <p class="about_text">UI/UX, visual, <strong class="web_designer">Web designer</strong> with more than 12 years of experience in designing websites and mobile apps.</p>
+            <form class="form-inline">
+              <button class="btn getInTouch_bannerButton getInTouch_aboutButton " type="button">Get in touch</button>
+            </form>
+            <!--- Youtube --->
+            <div id="video">
+              <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fzwOBOjSto8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </center>
+            </div>
+            <!--- Youtube --->
+          </div>
+        </div>
+      </div>
+      <!--- About Page --->
+
+      <!--- Services Page --->
+      <div class="container-fluid" id="services_container">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <section class="services-page text-center">
+                <span class="subheading">Our Services</span>
+                <h2>Web &amp; Mobile app design, bring your ideas to life</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              </section>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col-sm">
+            <div class="service">
+              <div class="justify-content-center">
+                <div><span> <img src="Icons\idea.png" class="icons"> </span></div>
+                <div>
+                  <h3 class="heading">Strategy</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="service">
+              <div class="justify-content-center">
+                <div><span> <img src="Icons\computer.png" class="icons"> </span></div>
+                <div>
+                  <h3 class="heading">Design</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="service">
+              <div class="justify-content-center">
+                <div><span> <img src="Icons\gear.png" class="icons"> </span></div>
+                <div>
+                  <h3 class="heading">Development</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="service">
+              <div class="justify-content-center">
+                <div><span> <img src="Icons\question.png" class="icons"> </span></div>
+                <div>
+                  <h3 class="heading">Help & Supports</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!--- Services Page --->
+
+
+        <!--- Footer Page --->
+        <div class="container-fluid">
+          <div class="row footer justify-">
+            <div class="col-sm">
+              <p class="footer"> Copyright ©2020 All rights reserved | This template is made with  by Aakriti </p>
+            </div>
+          </div>
+        </div>
+        <!--- Footer Page --->
 
         <!-- Jquery cdn -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
